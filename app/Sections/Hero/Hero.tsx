@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { analyzeWebsite, type AnalysisResult } from "../../lib/analyze";
 import { saveAudit, getAuditByUrlAndEmail } from "../../lib/db";
